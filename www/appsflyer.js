@@ -60,12 +60,12 @@ if(!window.CustomEvent) {
 
 document.addEventListener("deviceready", function(){
     var args = [];
-    var devKey = "xxXXXXXxXxXXXXxXXxxxx8";  // your AppsFlyer devKey
+    var devKey = "6KXDuWhpeEkDptFRGKHy83";  // your AppsFlyer devKey
     args.push(devKey);
     var userAgent = window.navigator.userAgent.toLowerCase();
                           
     if (/iphone|ipad|ipod/.test( userAgent )) {
-        var appId = "123456789";            // your ios app id in app store
+        var appId = "909481238";            // your ios app id in app store
         args.push(appId);
     }
 	window.plugins.appsFlyer.initSdk(args);
